@@ -1,0 +1,9 @@
+import { Mongo } from 'meteor/mongo';
+
+class SurveyCollection extends Mongo.Collection {
+    insert( filespec ){
+	
+    }
+};
+
+export default SurveyCollection;
