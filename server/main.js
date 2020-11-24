@@ -19,15 +19,19 @@ Meteor.startup(() => {
 var postRoutes = Picker.filter(function(req, res) {
    // here you could be a bit more specific in which
    // post request you are looking for, e.g. check the req.url
+    var survey_insert = Meteor.bindEnvironment( (files) => {
+	Surveys.insert( files );
+    });
+
    if (req.method == "POST") {
-       const form = new formidable.IncomingForm(); 
-       form.parse(req, function(err, fields, files){
-	   // We don't want knowledge of Questionnaire
-	   // specific processing. Formidable 'files'
-	   // constains low level file information
-	   Surveys.insert( files );
+
+	   const form = new formidable.IncomingForm(); 
+	   form.parse(req, function(err, fields, files){
+	       // We don't want knowledge of Questionnaire
+	       // specific processing. Formidable 'files'
+	       // constains low level file information
+	       survey_insert( files );
        });
-       
    }
    return true;
 });

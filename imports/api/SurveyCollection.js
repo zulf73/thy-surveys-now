@@ -36,18 +36,23 @@ function json_from_survey_text_file(file_path, qn){
 // outside this class.
 
 class SurveyCollection extends Mongo.Collection {
-
     insert( files ){
-	//console.log(fields);
-	console.log(files);
-	var file_path = files['myFile']['path'];
-	var file_name = files['myFile']['name'];
-	console.log(file_path);
-	console.log(file_name);
-	var json_file_text = json_from_survey_text_file(
+	var boundInsert = Meteor.bindEnvironment( () => {
+
+	    //console.log(fields);
+	    console.log(files);
+	    var file_path = files['myFile']['path'];
+	    var file_name = files['myFile']['name'];
+	    console.log(file_path);
+	    console.log(file_name);
+	    var json_file_text = json_from_survey_text_file(
 	    file_path, file_name);
-	var json_obj = JSON.parse(json_file_text);
-	return super.insert( json_obj );
+	    var json_obj = JSON.parse(json_file_text);
+	    console.log(json_obj);
+	    var retval = super.insert( json_obj );
+	    return retval;
+	});
+	return boundInsert();
     }
 };
 
