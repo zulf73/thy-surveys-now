@@ -2,6 +2,7 @@ import { Meteor } from 'meteor/meteor';
 import Surveys from '/imports/api/Surveys';
 import { Picker } from 'meteor/meteorhacks:picker';
 import formidable from 'formidable';
+const fs = require('fs');
 
 Meteor.startup(() => {
     // code to run on server at startup
