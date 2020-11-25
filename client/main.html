@@ -7,6 +7,17 @@
   <div>
     {{> uploadForm}}
   </div>
+    <div class="container">
+      <header>
+        <h1>Survey Questionnaires</h1>
+      </header>
+  
+      <ul>
+        {{#each s in surveys}}
+          {{> s}}
+        {{/each}}
+      </ul>
+    </div>
 </body>
 
 <template name="uploadForm">

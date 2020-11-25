@@ -46,7 +46,7 @@ class SurveyCollection extends Mongo.Collection {
 	    console.log(file_path);
 	    console.log(file_name);
 	    var json_file_text = json_from_survey_text_file(
-	    file_path, file_name);
+		file_path, file_name.split('.')[0]);
 	    var json_obj = JSON.parse(json_file_text);
 	    console.log(json_obj);
 	    var retval = super.insert( json_obj );
