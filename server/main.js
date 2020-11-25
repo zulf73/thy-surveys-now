@@ -3,17 +3,22 @@ import Surveys from '/imports/api/Surveys';
 import { Picker } from 'meteor/meteorhacks:picker';
 import formidable from 'formidable';
 const fs = require('fs');
+import Todos from '/imports/api/Todos';
 
 Meteor.startup(() => {
     // code to run on server at startup
 
     if (Meteor.isServer) {
-	Meteor.publish('surveys0', function () {
-	    return Surveys.find().cursor;
-	});
-    } else {
-	Meteor.subscribe('surveys0');
+	//Meteor.publish('surveys0', function () {
+	//    return Surveys.find().cursor;
+	//});
+	Todos.insert({ "task" : "Fly to Europe" });
+	Todos.insert({ "task" : "Fly to Japan" });
+	Todos.insert({ "task" : "Fly to the Moon" });
     }
+    //else {
+//	Meteor.subscribe('surveys0');
+  //  }
 });
 
 var postRoutes = Picker.filter(function(req, res) {

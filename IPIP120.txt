@@ -1,0 +1,121 @@
+1: I can control my cravings
+2: I excel at what I do
+3: I avoid philosophical discussions
+4: I become overwhelmed by events
+5: I am afraid to draw attention to myself
+6: I see beauty in things others might not notice
+7: I tend to vote for conservative political candidates
+8: I have a high opinion of myself
+9: I know how to get things done
+10: I prefer to stick with things I know
+11: I get irritated easily
+12: I like to get lost in thought
+13: I take charge
+14: I carry out my plans
+15: I enjoy being reckless
+16: I am not easily annoyed
+17: I waste my time
+18: I love to daydream
+19: I easily resist temptations
+20: I love large parties
+21: I only feel comfortable with friends
+22: I think highly of myself
+23: I make friends easily
+24: I feel others' emotions
+25: I fear for the worst
+26: I act without thinking
+27: I am afraid of many things
+28: I lose my temper
+29: I try to lead others
+30: I am always on the go
+31: I feel sympathy for those who are worse off than myself
+32: I often forget to put things back in their places
+33: I feel that I am better than others
+34: I try not to think about the needy
+35: I leave a mess in my room
+36: I am always busy
+37: I avoid crowds
+38: I rarely notice my emotional reactions
+39: I am indifferent to feelings of others
+40: I dislike changes
+41: I am unable to deal with things
+42: I love life
+43: I don't understand people who get emotional
+44: I feel comfortable with myself
+45: I am concerned about others
+46: I talk to a lot of people at parties
+47: I wait for others to lead the way
+48: I like to take it easy
+49: I have difficulties starting tasks
+50: I prefer variety to routine
+51: I break my promises
+52: I do not like poetry
+53: I am not bothered by difficult social situations
+54: I act wild and crazy
+55: I panic easily
+56: I rush into things
+57: I anger easily
+58: I remain calm under pressure
+59: I take control of things
+60: I like to tidy up
+61: I sympathize with the homeless
+62: I make no time for others
+63: I avoid contact with others
+64: I prefer to be alone
+65: I work hard
+66: I think others have good intentions
+67: I find it difficult to approach others
+68: I trust what people say
+69: I go on binges
+70: I insult people
+71: I rarely overindulge
+72: I am always prepared
+73: I am attached to conventional ways
+74: I jump into things without thinking
+75: I boast about my virtues
+76: I obstruct others' plans
+77: I yell at people
+78: I experience my emotions intensely
+79: I cheat to get ahead
+80: I do more than what is expected of me
+81: I believe we should be tough on crime
+82: I seek adventure
+83: I make rash decisions
+84: I keep others at a distance
+85: I keep my belongings around
+86: I do not enjoy going to art museums
+87: I do a lot in my spare time
+88: I tend to vote for liberal political candidates
+89: I love excitement
+90: I am often down in the dumps
+91: I distrust people
+92: I believe in the importance of art
+93: I have a lot of fun
+94: I get back at others
+95: I have difficulties understanding abstract ideas
+96: I have a vivid imagination
+97: I look at the bright side of life
+98: I keep my promises
+99: I dislike myself
+100: I am not interested in other people's problems
+101: I put little time and effort into my work
+102: I take advantage of others
+103: I complete tasks successfully
+104: I love to read challenging material
+105: I break rules
+106: I use others for my own needs
+107: I love to help others
+108: I get stressed out easily
+109: I love a good fight
+110: I handle tasks smoothly
+111: I enjoy wild ecstasies of fantasy
+112: I believe there is no absolute right or wrong
+113: I tell the truth
+114: I am not interested in theoretical discussions
+115: I trust others
+116: I feel comfortable around people
+117: I radiate joy
+118: I often feel blue
+119: I worry about things
+120: I do just enough work to get by
+
